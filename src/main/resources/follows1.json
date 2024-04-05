@@ -1,0 +1,18 @@
+{
+    "columns": [
+        {
+            "name": "username",
+            "type": "keyword"
+        },
+        {
+            "name": "followed",
+            "type": "keyword"
+        }
+    ],
+    "rows": [
+        [
+            "roger1",
+            "jany1"
+        ]
+    ]
+}
