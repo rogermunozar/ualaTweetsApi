@@ -13,6 +13,15 @@ En la raiz de proyecto se encuentran  4 entidades, cada una en una carpeta:
      -"infrastructura": donde se manejan los frameworks externos y objetos para su uso
 </p>  
   
-# base de datos
-se utilizo ElasticSearch con el proposito de incrementar o extender la capacidad de almacenamiento debido a que esta herramienta cuanta con la posibilidad de particionar la data en varios servidores y asi mejorar los tiempos de las consulta
+# Base de Datos
+se utilizo ElasticSearch (posee un API REST )con el proposito de incrementar o extender la capacidad de almacenamiento debido a que esta herramienta cuanta con la posibilidad de particionar la data en varios servidores y asi mejorar los tiempos de las consulta
 Ejamplo,  1 Millon de usuarios podrian estar en decenas de servidores para mejorar su rendimiento
+
+Esta DB esta ubicada en 191.101.18.138:9200 
+respondiendo con los siguientes consultas:
+
+# deploy
+
+http://localhost:8080/swagger-ui/index.html
+
+
